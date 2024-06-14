@@ -1,0 +1,27 @@
+{
+	"id": "0270dee5-0ef7-ee11-aaf0-000d3ab82dc5",
+	"createdAt": "2024-04-10T07:49:46.756Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "287B3B5E-07F7-EE11-AAF0-000D3AB82DC5",
+			"name": "dxpdemo_apprequest",
+			"contextname": "dxpdemo_apprequest"
+		}
+	],
+	"apis": [],
+	"name": "save",
+	"ver": "24.05.08.1505",
+	"description": null,
+	"folder": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "67e0b5dd-0ef7-ee11-aaf0-000d3ab82dc5",
+	"package": "f3f66687-08f8-ee11-aaf0-000d3ab82dc5"
+}

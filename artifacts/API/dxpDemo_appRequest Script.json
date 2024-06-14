@@ -1,0 +1,162 @@
+{
+	"id": "e07d5950-10f7-ee11-aaf0-000d3ab82dc5",
+	"createdAt": "2024-04-10T07:59:54.480Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "7d064b65-b1cd-440b-83a2-16610ee199b2",
+			"method": "POST",
+			"path": "/save",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [
+				{
+					"objectType": "reference",
+					"items": [],
+					"name": "details"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "0270dee5-0ef7-ee11-aaf0-000d3ab82dc5"
+		}
+	],
+	"definitions": [
+		{
+			"id": "aaf9631a-d8fe-460d-f0ae-b2ea772d3a00",
+			"name": "details",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "df8453a0-5b08-4c1e-b105-b3bbd98add59",
+					"name": "title",
+					"objectType": "string",
+					"required": false,
+					"parent": "",
+					"example": "text",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "273fd254-0a3d-4fa5-c25f-ce1ddf670f09",
+					"name": "category",
+					"objectType": "string",
+					"required": false,
+					"parent": "",
+					"example": "mediumtext",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "d5858fe5-4e73-45a3-b0df-09827da1a6b9",
+					"name": "priority",
+					"objectType": "string",
+					"required": false,
+					"parent": "",
+					"example": "smalltext",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "f1576ffe-dac5-4bd0-e2db-2e675df19807",
+					"name": "status",
+					"objectType": "string",
+					"required": false,
+					"parent": "",
+					"example": "smalltext",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "fca2c9d2-38a4-4ac0-b472-7203dfe62021",
+					"name": "description",
+					"objectType": "string",
+					"required": false,
+					"parent": "",
+					"example": "text",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "70d3945b-3b37-4816-f95d-425d432867ac",
+					"name": "comments",
+					"objectType": "string",
+					"required": false,
+					"parent": "",
+					"example": "text",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "ef0b5fb5-e749-4859-e17e-03081f51cc59",
+					"name": "requester",
+					"objectType": "string",
+					"required": false,
+					"parent": "",
+					"example": "mediumtext",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				}
+			],
+			"type": "object"
+		}
+	],
+	"documentation": [],
+	"name": "dxpDemo_appRequest Script",
+	"endpoint": "/api/serverscript/dxpdemo_apprequestscript",
+	"ver": "24.06.14.1156",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "f3f66687-08f8-ee11-aaf0-000d3ab82dc5",
+	"apiGroup": null,
+	"apiFormat": 1,
+	"roles": []
+}

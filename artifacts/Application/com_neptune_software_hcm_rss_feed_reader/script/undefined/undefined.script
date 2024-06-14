@@ -1,0 +1,38 @@
+.nepHCMFeed .sapMCrslInner {
+  transition-duration: 0.001s;
+}
+
+@media (max-width: 1024px) {
+  .nepHCMFeed .sapMCrslInner {
+    transition-duration: 0.001s;
+  }
+}
+.nepHCMFeedContent {
+  margin: 1rem 1rem 0.5rem 1rem;
+}
+
+.nepHCMFeed {
+  height: 300px !important;
+}
+
+.nepHCMFeedItem .sapMImg {
+  max-height: 256px;
+}
+
+.nepHCMFeedTitle.sapMText {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.nepHCMFeedText.sapMText {
+  font-size: 0.75rem;
+}
+
+.nepHCMFeedContent .nepTileFooter .sapMText {
+  font-weight: normal;
+  font-size: 0.75rem;
+}
+
+.nepHCMFeedContent .nepTileFooter {
+  margin-top: 0.75rem;
+}

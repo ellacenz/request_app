@@ -1,0 +1,65 @@
+{
+	"id": "287b3b5e-07f7-ee11-aaf0-000d3ab82dc5",
+	"createdAt": "2024-04-10T06:55:55.773Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"fields": [
+		{
+			"id": "570dd69a-01cf-46e6-da3b-bb41d4eade71",
+			"fieldName": "title",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "40855f6d-cc87-49d9-a6d1-9055cc807717",
+			"fieldName": "category",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "8040a3bd-852b-44e4-f369-eb1fd3023b0b",
+			"fieldName": "priority",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "2625c763-1d60-4a3f-d59d-05374aa0b4cd",
+			"fieldName": "status",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "fc7941f8-2ecd-4ce4-d83d-ff9fa246baf3",
+			"fieldName": "description",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "7530308a-3b1a-4f0f-cb14-d272238087e4",
+			"fieldName": "comments",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "1b01cb37-cf47-48b0-cd05-0aa762471876",
+			"fieldName": "requester",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "dxpdemo_apprequest",
+	"description": null,
+	"ver": "24.4.11.1537",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "f3f66687-08f8-ee11-aaf0-000d3ab82dc5",
+	"rolesRead": [],
+	"rolesWrite": []
+}

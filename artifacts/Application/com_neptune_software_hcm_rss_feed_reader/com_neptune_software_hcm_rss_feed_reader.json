@@ -1,0 +1,202 @@
+{
+	"id": "fa2b92fd-50ce-ed11-a8de-000d3a65e714",
+	"createdAt": "2023-03-29T16:46:41.630Z",
+	"createdBy": "morten.prom@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "2539a5b4-59f7-41ab-9995-465ac0a74ced",
+			"fieldName": "boxFeed",
+			"fieldParent": 0,
+			"fieldType": "sap.m.VBox",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "styleClass",
+					"grouping": "Properties",
+					"value": "nepHCMFeedContainer",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "renderType",
+					"grouping": "Properties",
+					"value": "Bare",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "height",
+					"grouping": "Properties",
+					"value": "100%",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "alignItems",
+					"grouping": "Properties",
+					"value": "Center",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "9b87cd20-07f3-4e1c-a0fd-18f30327faa5",
+					"fieldName": "titleFeed",
+					"fieldParent": "2539a5b4-59f7-41ab-9995-465ac0a74ced",
+					"fieldType": "sap.m.Title",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "visible",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "titleStyle",
+							"grouping": "Properties",
+							"value": "H1",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "text",
+							"grouping": "Properties",
+							"value": "Feed Error!",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "level",
+							"grouping": "Properties",
+							"value": "H1",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "9f3675e7-37f9-4b28-f89e-746141ec356c",
+					"fieldName": "carouselFeed",
+					"fieldParent": "2539a5b4-59f7-41ab-9995-465ac0a74ced",
+					"fieldType": "sap.m.Carousel",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "styleClass",
+							"grouping": "Properties",
+							"value": "nepHCMFeed",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "loop",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "arrowsPlacement",
+							"grouping": "Properties",
+							"value": "Content",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "12fa0246-97a4-4dcf-e408-9aee544e4a99",
+					"fieldName": "Init",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Init.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "42e14c0d-7041-4280-dd07-e3b868a1bf87",
+					"fieldName": "Init1",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Init1.js",
+					"customComponent": false,
+					"disabled": true,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.4.17.1538",
+	"application": "com_neptune_software_hcm_rss_feed_reader",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "f3f66687-08f8-ee11-aaf0-000d3ab82dc5"
+}

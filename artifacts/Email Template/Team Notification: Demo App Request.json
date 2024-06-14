@@ -1,0 +1,19 @@
+{
+	"id": "eb9893b0-3af7-ee11-aaf0-000d3ab82dc5",
+	"createdAt": "2024-04-10T13:03:14.790Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"translation": null,
+	"name": "Team Notification: Demo App Request",
+	"description": "Application Request from {=requester}",
+	"content": [
+		"==OBJECT STRING==",
+		"<!DOCTYPE html><html><head>",
+		"<meta charset=\"utf-8\">",
+		"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+		"<link href=\"https://gtmdemosystem.neptune-software.cloud/public/editor/suneditor.min.css\" rel=\"stylesheet\">",
+		"</head><body class=\"sun-editor-editable\" style=\"\" ><p style=\"margin-left: 25px;\">Hey Team,</p><p style=\"margin-left: 25px;\">We have a new demo request. Here are the details:</p><table style=\"margin: 30px;\" class=\"se-table-size-auto\">        <tbody> <tr> <td> <div>Requester<br>        </div> </td> <td> <div>{=requester}<br>        </div> </td> </tr> <tr> <td> <div>Demo Title<br>        </div> </td> <td> <div>{=title}<br>        </div> </td> </tr> <tr> <td> <div>Business Category<br>        </div> </td> <td> <div>{=category}<br>        </div> </td> </tr> <tr> <td> <div>Priority Level<br>        </div> </td> <td> <div>{=priority}<br>        </div> </td> </tr> <tr> <td> <div>Status<br>        </div> </td> <td> <div>{=status}<br>        </div> </td> </tr> <tr> <td> <div>Description<br>        </div> </td> <td> <div>{=description}<br>        </div> </td> </tr> <tr> <td> <div>Additional Comment<br>        </div> </td> <td> <div>{=comments}<br>        </div> </td> </tr> </tbody></table><p>Best Regards,</p><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"caret-color: rgb(33, 33, 33); color: rgb(33, 33, 33); font-family: Calibri; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none;\"><tbody><tr><td nowrap=\"nowrap\" style=\"padding: 0cm;\"><p style=\"margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;\"><strong><span style=\"font-size: 16pt; font-family: Arial, sans-serif; color: rgb(246, 178, 33); line-height: 1.2;\">Emmanuella Ndukwe</span></strong></p></td></tr><tr><td nowrap=\"nowrap\" style=\"padding: 0cm;\"><p style=\"margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"font-size: 10pt; font-family: Arial, sans-serif; color: rgb(0, 62, 82); line-height: 1.2;\">JUNIOR PRODUCT CONSULTANT</span></p></td></tr></tbody></table></body></html>"
+	],
+	"ver": "24.4.11.1342",
+	"type": "template",
+	"package": "f3f66687-08f8-ee11-aaf0-000d3ab82dc5"
+}

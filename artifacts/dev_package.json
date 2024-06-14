@@ -1,0 +1,108 @@
+{
+	"id": "f3f66687-08f8-ee11-aaf0-000d3ab82dc5",
+	"createdAt": "2024-04-11T13:36:42.016Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/ellacenz/request_app"
+	},
+	"name": "DXP Demo Request",
+	"description": null,
+	"ver": "24.06.14.1208",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "fa2b92fd-50ce-ed11-a8de-000d3a65e714",
+			"application": "com_neptune_software_hcm_rss_feed_reader",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F3F66687-08F8-EE11-AAF0-000D3AB82DC5"
+			}
+		},
+		{
+			"id": "5a1b6371-06f7-ee11-aaf0-000d3ab82dc5",
+			"application": "dxpdemo_apprequest",
+			"title": "Demo Request App",
+			"description": "",
+			"package": {
+				"id": "F3F66687-08F8-EE11-AAF0-000D3AB82DC5"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "f3435f66-07f7-ee11-aaf0-000d3ab82dc5",
+			"name": "dxpDemo_appRequest",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "e07d5950-10f7-ee11-aaf0-000d3ab82dc5",
+			"name": "dxpDemo_appRequest Script",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "287b3b5e-07f7-ee11-aaf0-000d3ab82dc5",
+			"name": "dxpdemo_apprequest",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "0270dee5-0ef7-ee11-aaf0-000d3ab82dc5",
+			"name": "save",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "67e0b5dd-0ef7-ee11-aaf0-000d3ab82dc5",
+			"name": "DemoAppRequestScripts",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "2973cdfa-85fc-ee11-aaf0-000d3ab82dc5",
+			"description": "Request for domain-specific application for demo purposes",
+			"name": "Demo Request "
+		}
+	],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [
+		{
+			"id": "fcbbeb90-11f7-ee11-aaf0-000d3ab82dc5",
+			"name": "Demo App Request",
+			"description": "Confirmation: Receipt of Your Application Request"
+		},
+		{
+			"id": "eb9893b0-3af7-ee11-aaf0-000d3ab82dc5",
+			"name": "Team Notification: Demo App Request",
+			"description": "Application Request from {=requester}"
+		}
+	],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}
